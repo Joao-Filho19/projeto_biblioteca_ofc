@@ -1,7 +1,7 @@
 <?php
 	namespace views;
 
-	class ConsultaEmprestimoView extends View{
+	class SelecaoDevolucaoView extends View{
 
 		const DEFAULT_HEADER = 'header2.php';
 		const DEFAULT_FOOTER = 'footer.php';

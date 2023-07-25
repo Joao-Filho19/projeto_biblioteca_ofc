@@ -32,8 +32,8 @@
         </div>
 
         <div id="div-opcao-cadastro">
-            <a href="consultaEmprestimo"><center><i class="bi bi-journal-arrow-down" style="color:black; font-size: 2.5rem"></i></center>
-            <a id="a-opcao-cadastro" href="consultaEmprestimo">Emprestados</a></a>
+            <a href="selecaoDevolucao"><center><i class="bi bi-journal-arrow-down" style="color:black; font-size: 2.5rem"></i></center>
+            <a id="a-opcao-cadastro" href="selecaoDevolucao">Emprestados</a></a>
         </div>
     <div>
 

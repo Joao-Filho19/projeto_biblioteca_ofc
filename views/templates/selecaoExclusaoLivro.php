@@ -1,5 +1,5 @@
 <main>
-    <h2>Alterar Livros</h2>
+    <h2>Excluir Livros</h2>
 <form method="post">
     <table id="customers">
 

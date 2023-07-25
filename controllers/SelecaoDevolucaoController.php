@@ -3,7 +3,7 @@
 	/**
 	* 
 	*/
-	class EmprestadosController extends Controller
+	class SelecaoDevolucaoController extends Controller
 	{
 		
 		public function __construct($view,$model){
@@ -11,7 +11,7 @@
 		}
 
 		public function index(){
-			$this->view->render('consultaEmprestimo.php');
+			$this->view->render('selecaoDevolucao.php');
 		}
 	}
 ?>

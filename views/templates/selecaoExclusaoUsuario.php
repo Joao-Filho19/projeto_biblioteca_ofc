@@ -1,5 +1,7 @@
+<main>
+    <h2>Excluir Usuários</h2>
 <form method="post">
-<table>
+<table id="customers" style="border: 1px solid black">
 <tr>
         <th>#</th>
         <th>Codigo</th>
@@ -29,10 +31,11 @@
     }
 ?>
 </table>
-    <input class='bt_submit' type='submit' name='bt_excl' value='Excluir'>
+    <input class='bt-submit' type='submit' name='bt_excl' value='Excluir'>
 </form>
 <?php
 use models\SelecaoExclusaoUsuarioModel;
 $excl = new SelecaoExclusaoUsuarioModel();
 $excl->excluirUsuarios();
 ?>
+</main>

@@ -1,5 +1,7 @@
+<main>
+    <h2>Alterar informações do usuário</h2>
 <form method="post" action="alterarEditarUsuario">
-<table>
+<table id="customers" style="border: 1px solid black">
 <tr>
         <th>#</th>
         <th>Codigo</th>
@@ -29,5 +31,6 @@
     }
 ?>
 </table>
-    <input class='bt_submit' type='submit' name='bt_alt' value='Alterar'>
+    <input class='bt-submit' type='submit' name='bt_alt' value='Alterar'>
 </form>
+</main>

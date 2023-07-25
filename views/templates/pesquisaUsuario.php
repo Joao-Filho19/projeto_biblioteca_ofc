@@ -1,6 +1,5 @@
-<table>
-
-
+<main>
+<table id="customers" style="border: 1px solid black">
 <tr>
         <th>Codigo</th>
         <th>Nome</th>
@@ -28,3 +27,4 @@
     }
 ?>
 </table>
+</main>
