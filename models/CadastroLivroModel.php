@@ -7,7 +7,13 @@
             date_default_timezone_set('America/Sao_Paulo');
 			if (isset($_POST["bt_enviar"])) {
 			$cdd = $_POST["cdd"];
-			$letra_sobrenome = $_POST["autor"];
+			// Obtem sobrenome e nome do autor dos campos separados
+            $sobrenome_autor = $_POST["sobrenome_autor"];
+            $nome_autor = $_POST["nome_autor"];
+            
+            // Concatena sobrenome e nome com um espaço em branco
+            $letra_sobrenome = $sobrenome_autor . ' ' . $nome_autor;
+
 			$letra_titulo = $_POST["titulo"];
 			$exemplar = $_POST["exemplar"];
 			$edicao = $_POST["edicao"];

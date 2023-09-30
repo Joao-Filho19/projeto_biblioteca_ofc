@@ -16,12 +16,22 @@
 
                 <div class="label-input">
                     <div>
-                        <label for=""><strong class="label-strong">*Autor:</strong></label>
+                        <label for=""><strong class="label-strong">*Sobrenome do Autor:</strong></label>
                     </div>
                     <div>
-                        <input style="margin: 0.5rem 0 0 0;width: 60vw;" class="campo" type="text" name="autor" placeholder="Ex: José de Alencar" required>    
+                        <input style="margin: 0.5rem 0 0 0;width: 30vw;" class="campo" type="text" name="sobrenome_autor" placeholder="Ex: Alencar" required>
                     </div>
                 </div>
+
+                <div class="label-input">
+                    <div>
+                        <label for=""><strong class="label-strong">*Nome do Autor:</strong></label>
+                    </div>
+                    <div>
+                        <input style="margin: 0.5rem 0 0 0;width: 30vw;" class="campo" type="text" name="nome_autor" placeholder="Ex: José" required>
+                    </div>
+                </div>
+
 
                 <div class="label-input">
                     <div>
