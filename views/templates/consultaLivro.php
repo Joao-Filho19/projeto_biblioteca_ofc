@@ -7,7 +7,7 @@
             <th>Quantidade de Exemplares</th>
         </tr>
         <?php 
-        $livrosAgrupados = \Models\ConsultaLivroModel::listarLivrosAgrupados();
+        $livrosAgrupados = \Models\ConsultaLivroAgrupadoModel::listarLivrosAgrupados();
         foreach ($livrosAgrupados as $value) {
         ?>
         <tr>

@@ -12,7 +12,7 @@
             $nome_autor = $_POST["nome_autor"];
             
             // Concatena sobrenome e nome com um espaço em branco
-            $letra_sobrenome = $sobrenome_autor . ' ' . $nome_autor;
+            $letra_sobrenome = $sobrenome_autor . ', ' . $nome_autor;
 
 			$letra_titulo = $_POST["titulo"];
 			$exemplar = $_POST["exemplar"];
